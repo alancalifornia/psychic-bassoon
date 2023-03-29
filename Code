@@ -1,0 +1,16 @@
+/* 
+Created By: Alan 
+Created ON: March/2023
+Description: This query selects the first name, last name, and email from the customers table,
+ordered by first name (ascending), then last name (descending).
+*/
+
+SELECT 
+	FirstName AS [First Name],
+	LastName AS [Last Name], 
+	Email AS [EMAIL]
+From 
+	customers
+ORDER BY 
+	LastName ASC,
+	FirstName DESC
